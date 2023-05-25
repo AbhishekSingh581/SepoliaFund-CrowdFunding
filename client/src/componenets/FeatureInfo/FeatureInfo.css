@@ -1,0 +1,96 @@
+.featureComponent{
+    background: var(--dark-theme1);
+    color: #fff;
+}
+.featureDiv{
+    padding: 1em 5em;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    /* margin-bottom: 5%; */
+}
+.featureImage{
+    /* border: 1px solid red; */
+    width: 50%;
+}
+.featureImage img{
+    width: 70%;
+}
+.featureDescription{
+    /* border: 1px solid red; */
+    width: 50%;
+}
+.featureDescription p{
+    margin: 1%;
+}
+.feature-title{
+    border:0.5px solid #fff;
+    display: inline-block;
+    padding: 0.3em;
+    border-radius: 10px;
+}
+.feature-question{
+    font-size: 2em;
+    font-weight: 700;
+    width: 75%;
+}
+.feature-answer{
+    font-size: 0.8em;
+    width: 75%;
+}
+.feature-button{
+    border-style: none;
+    margin-top: 5%;
+    margin-left: 1%;
+    padding: 1.5% 2%;
+    border-radius: 5px;
+    font-size: 1.1em;
+    color: #fff;
+    background: var(--dark-theme3);
+}
+.aboutTeam{
+    padding:2em 5em;
+    /* border: 1px solid red; */
+    background: var(--dark-theme2);
+}
+.team-heading{
+    font-size: 2.5em;
+    font-weight: 700;
+    width: 80%;
+}
+@media only screen and (max-width: 700px) {
+    .team-heading{
+        font-size: 1.2em;
+        font-weight: 700;
+        width: 100%;
+    }
+    .featureDiv{
+        padding: 2em 0.5em;
+        flex-direction: column-reverse !important;
+    }
+    .featureImage{
+        padding: 5% 0%;
+        width: 100%;
+    }
+    .featureDescription{
+        width: 100%;
+    }
+    .feature-title{
+        font-size: 0.8em;
+    }
+    .feature-question{
+        font-size: 1.3em;
+        font-weight: 600;
+        width: 100%;
+    }
+    .feature-answer{
+        width: 100%;
+    }
+    .featureImage img{
+        width: 100%;
+        
+    }
+    .aboutTeam{
+        padding:1.5em 0.5em;
+    }
+}

@@ -1,0 +1,71 @@
+.banner{
+    /* border: 1px solid red; */
+    padding: 8em 14em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--dark-theme3);
+    color: var(--dark-theme1);
+}
+.banner-text{
+    font-size: 3em;
+    margin: 0%;
+    font-weight: 800    ;
+}
+.banner-subtext{
+    width: 70%;
+    text-align: center;
+    font-size: 1.2em;
+}
+.figures-div{
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 900;
+    font-size: larger;
+}
+.emailForm-div{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 50%;
+    justify-content: space-between;
+}
+.emailForm-div input{
+    width: 80%;
+    padding: 0.8em;
+}
+.emailForm-div button{
+    border-style: none;
+    color: #fff;
+    background: #000;
+    width: 15%;
+}
+@media only screen and (max-width: 700px) {
+    .banner{
+        padding: 1.4em;
+    }
+    .banner-text{
+        font-size: 1.4em;
+    }
+    .banner-subtext{
+        width: 100%;
+        font-size: 0.8em;
+    }
+    .figures-div{
+        width: 100%;
+        font-size: medium;
+    }
+    .emailForm-div{
+        width: 100%;
+    }
+    .emailForm-div input{
+        width: 80%;
+        padding: 0%;
+    }
+    .emailForm-div button{
+        width: 20%;
+    }
+}

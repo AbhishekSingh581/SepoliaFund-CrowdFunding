@@ -1,0 +1,52 @@
+.card{
+    background: var(--dark-theme2);
+    width: 20rem;
+}
+.card-img-top{
+    height: 12em;
+}
+.card-title{
+    font-size: 1.2em;
+    margin: 1% 0%;
+}
+.card-description{
+    font-size: 1em;
+    color: #8a8a8a;
+    margin: 0%;
+}
+.date-fund{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 4%;
+    margin: 8% 0%;
+}
+.card-owner{
+    color: #8a8a8a;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.date-fund-item{
+    display: flex;
+    flex-direction: column;
+}
+.dete-fund-text{
+    /* font-size: 0.5em; */
+    color: #8a8a8a;
+}
+@media only screen and (max-width: 700px){
+    .card{
+        width: 20rem;
+    }
+    .card-title{
+        font-size: 1em;
+    }
+    .card-description{
+        font-size: 0.8em;
+    }
+    .date-fund{
+        margin: 5% 0%;
+    }
+}
