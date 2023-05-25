@@ -61,6 +61,9 @@
     .nav-items{
         display: none;
     }
+    .navbar-btns{
+        margin: 0%;
+    }
     .navbar-btns button{
         padding: 0.5em;
     }
